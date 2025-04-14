@@ -1,0 +1,7 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "1206_Wide")(type "KiCad")(uri "${KIPRJMOD}/new_parts/1206_Wide/footprints.pretty")(options "")(descr ""))
+  (lib (name "FixedDSUB")(type "KiCad")(uri "${KIPRJMOD}/new_parts/L77HDE15SD1CH4FVGA")(options "")(descr ""))
+  (lib (name "SOJ_DRAM")(type "KiCad")(uri "${KIPRJMOD}/new_parts/nightshade.pretty")(options "")(descr ""))
+  (lib (name "PDVGA")(type "KiCad")(uri "${KIPRJMOD}/new_parts/PDVGA.pretty")(options "")(descr ""))
+)

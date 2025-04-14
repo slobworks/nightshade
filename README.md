@@ -2,6 +2,7 @@ Nightshade is a collection of attempts at making video cards based upon the Cirr
 - Dedicated regulator for the internal RAMDAC for improved video quality
 - Four-layer PCB for reduced noise
 - Supports N-well CL-GD542x chips, starting from late revision CL-GD5422 all the way up to CL-GD5429 (though you may have to change strapping resistors as needed)
+- Judicious usage of resistor arrays and an emphasis on implementation simplicity (added regulator aside) for reduced part count and effort needed to assemble the board
 
 Made in KiCAD 8.0something.
 Also includes gerber files so you can try it out for yourself.

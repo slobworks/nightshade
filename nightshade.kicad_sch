@@ -4610,25 +4610,25 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U"
-				(at 0.635 6.35 0)
+			(property "Reference" "U4"
+				(at -3.048 1.5297 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
+					(justify right)
 				)
 			)
 			(property "Value" "LM334M"
-				(at 0.635 4.445 0)
+				(at -3.048 -0.8946 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
+					(justify right)
 				)
 			)
-			(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(property "Footprint" "PDVGA:SOIC-8_DMP-8"
 				(at 0.635 -3.81 0)
 				(effects
 					(font
@@ -4856,6 +4856,24 @@
 						)
 					)
 				)
+				(pin no_connect line
+					(at 5.08 -1.27 180)
+					(length 2.54) hide
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 				(pin passive line
 					(at 0 -5.08 90)
 					(length 2.54) hide
@@ -4892,10 +4910,28 @@
 						)
 					)
 				)
-				(pin passive line
-					(at 0 -5.08 90)
+				(pin no_connect line
+					(at 5.08 -1.27 180)
 					(length 2.54) hide
-					(name "~"
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 5.08 1.27 180)
+					(length 2.54) hide
+					(name "NC"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4920,7 +4956,61 @@
 							)
 						)
 					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 5.08 1.27 180)
+					(length 2.54) hide
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
 					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 2.54) hide
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 5.08 1.27 180)
+					(length 2.54) hide
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -20906,7 +20996,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1u"
+		(property "Value" "0.22u"
 			(at 210.82 266.7 90)
 			(effects
 				(font
@@ -21438,7 +21528,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1u"
+		(property "Value" "0.22u"
 			(at 210.82 256.54 90)
 			(effects
 				(font
@@ -24388,7 +24478,7 @@
 				)
 			)
 		)
-		(property "Value" "27p"
+		(property "Value" "18p"
 			(at 220.98 140.0048 90)
 			(effects
 				(font
@@ -24455,7 +24545,7 @@
 				)
 			)
 		)
-		(property "Value" "27p"
+		(property "Value" "18p"
 			(at 220.98 148.8948 90)
 			(effects
 				(font
@@ -25399,7 +25489,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "18pF"
+		(property "Value" "12p"
 			(at 339.09 63.5 90)
 			(effects
 				(font
@@ -25468,7 +25558,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "18pF"
+		(property "Value" "12p"
 			(at 336.55 72.39 90)
 			(effects
 				(font
@@ -25537,7 +25627,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "18pF"
+		(property "Value" "12p"
 			(at 332.74 81.28 90)
 			(effects
 				(font
@@ -25673,7 +25763,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10pF"
+		(property "Value" "12p"
 			(at 353.06 81.28 90)
 			(effects
 				(font
@@ -25742,7 +25832,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10pF"
+		(property "Value" "12p"
 			(at 356.87 72.39 90)
 			(effects
 				(font
@@ -25811,7 +25901,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10pF"
+		(property "Value" "12p"
 			(at 359.41 63.5 90)
 			(effects
 				(font
@@ -26531,7 +26621,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1u"
+		(property "Value" "0.22u"
 			(at 114.3 90.17 0)
 			(effects
 				(font
@@ -26600,7 +26690,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1u"
+		(property "Value" "0.22u"
 			(at 114.3 77.47 0)
 			(effects
 				(font
@@ -26669,7 +26759,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1u"
+		(property "Value" "0.22u"
 			(at 113.03 118.11 0)
 			(effects
 				(font
@@ -27114,7 +27204,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1u"
+		(property "Value" "0.22u"
 			(at 173.99 90.17 0)
 			(effects
 				(font
@@ -27183,7 +27273,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1u"
+		(property "Value" "0.22u"
 			(at 173.99 77.47 0)
 			(effects
 				(font
@@ -27252,7 +27342,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1u"
+		(property "Value" "0.22u"
 			(at 172.72 118.11 0)
 			(effects
 				(font
@@ -28841,6 +28931,21 @@
 		)
 		(pin "6"
 			(uuid "cccd6cdc-df38-462c-b3ef-99dd7f7b1e2a")
+		)
+		(pin "6"
+			(uuid "3e6e90ed-d073-4937-bed9-941874444ac7")
+		)
+		(pin "8"
+			(uuid "5ea12856-f797-4b69-9c0e-270817b92d52")
+		)
+		(pin "5"
+			(uuid "b961e77d-fa7d-4123-a8d0-447a149f76c3")
+		)
+		(pin "7"
+			(uuid "ae71742d-fff3-4887-8e34-21cceb7b5b5f")
+		)
+		(pin "3"
+			(uuid "33a40fd5-f035-4e49-885f-b4055d53521f")
 		)
 		(instances
 			(project ""

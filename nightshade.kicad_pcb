@@ -283,6 +283,8 @@
 	(net 208 "Net-(U6-D3)")
 	(net 209 "Net-(U6-D4)")
 	(net 210 "Net-(U6-D6)")
+	(net 211 "unconnected-(U4-NC-Pad8)")
+	(net 212 "unconnected-(U4-NC-Pad5)")
 	(footprint "Capacitor_SMD:C_1206_3216Metric"
 		(layer "F.Cu")
 		(uuid "00000000-0000-0000-0000-00006633eb6c")
@@ -513,7 +515,7 @@
 				)
 			)
 		)
-		(property "Value" "0.1u"
+		(property "Value" "0.22u"
 			(at -0.01 -2.35 90)
 			(layer "F.Fab")
 			(uuid "3962d734-8934-44d8-b5cd-816cf3ccb417")
@@ -724,7 +726,7 @@
 				)
 			)
 		)
-		(property "Value" "0.1u"
+		(property "Value" "0.22u"
 			(at -1.525 1.425 90)
 			(layer "F.Fab")
 			(uuid "48ba6ec4-204b-48bb-98ac-4a936416f10f")
@@ -3263,7 +3265,7 @@
 				)
 			)
 		)
-		(property "Value" "27p"
+		(property "Value" "18p"
 			(at 0 1.68 90)
 			(layer "F.Fab")
 			(uuid "79ad4b9e-7a6a-4b30-a76d-b2c3824bd962")
@@ -3477,7 +3479,7 @@
 				)
 			)
 		)
-		(property "Value" "27p"
+		(property "Value" "18p"
 			(at 0 1.68 90)
 			(layer "F.Fab")
 			(uuid "ca05687d-63ea-4e0e-b3bb-e37244418206")
@@ -3691,7 +3693,7 @@
 				)
 			)
 		)
-		(property "Value" "18pF"
+		(property "Value" "12p"
 			(at 0 1.68 90)
 			(layer "F.Fab")
 			(uuid "0b068811-85f4-4e48-bbf8-adb3b1c1321e")
@@ -3904,7 +3906,7 @@
 				)
 			)
 		)
-		(property "Value" "18pF"
+		(property "Value" "12p"
 			(at 0 1.68 90)
 			(layer "F.Fab")
 			(uuid "e91f5cb9-5059-4584-af6e-920afdb13865")
@@ -4117,7 +4119,7 @@
 				)
 			)
 		)
-		(property "Value" "18pF"
+		(property "Value" "12p"
 			(at 0 1.68 90)
 			(layer "F.Fab")
 			(uuid "de8b9cc5-781b-4b78-9ff5-0810d3dd6d36")
@@ -4330,7 +4332,7 @@
 				)
 			)
 		)
-		(property "Value" "10pF"
+		(property "Value" "12p"
 			(at 0 1.68 90)
 			(layer "F.Fab")
 			(uuid "aab6c402-053a-4cce-8b95-61c3b0bd1b34")
@@ -4543,7 +4545,7 @@
 				)
 			)
 		)
-		(property "Value" "10pF"
+		(property "Value" "12p"
 			(at 0 1.68 90)
 			(layer "F.Fab")
 			(uuid "062d227d-bb88-4874-b604-585173c3d489")
@@ -4756,7 +4758,7 @@
 				)
 			)
 		)
-		(property "Value" "10pF"
+		(property "Value" "12p"
 			(at 0 1.68 90)
 			(layer "F.Fab")
 			(uuid "8bc1e935-0c3c-4c62-99df-cac944bf7ae6")
@@ -15052,6 +15054,9 @@
 			(size 3 0.605)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.25)
+			(net 212 "unconnected-(U4-NC-Pad5)")
+			(pinfunction "NC")
+			(pintype "no_connect")
 			(uuid "ecd07213-1d31-4820-9240-cf41cb0e4f60")
 		)
 		(pad "6" smd roundrect
@@ -15077,6 +15082,9 @@
 			(size 3 0.605)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.25)
+			(net 211 "unconnected-(U4-NC-Pad8)")
+			(pinfunction "NC")
+			(pintype "no_connect")
 			(uuid "161f3de3-5908-49eb-98cf-b8719e216f29")
 		)
 		(model "${KICAD8_3DMODEL_DIR}/Package_SO.3dshapes/SOIC-8_3.9x4.9mm_P1.27mm.step"
@@ -17531,7 +17539,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "0.1u"
+		(property "Value" "0.22u"
 			(at 1.35 1.45 0)
 			(layer "B.Fab")
 			(uuid "730671f1-9b02-4e2f-be3e-72eb7f4b30a8")
@@ -17748,7 +17756,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "0.1u"
+		(property "Value" "0.22u"
 			(at -3.625 0.025 0)
 			(layer "B.Fab")
 			(uuid "c1ff561a-a544-4c06-ab71-b498b95800b1")
@@ -17964,7 +17972,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "0.1u"
+		(property "Value" "0.22u"
 			(at -2.575 -1.65 90)
 			(layer "B.Fab")
 			(uuid "59545217-8518-4bdf-a52f-afbaa2c8dcf1")
@@ -18181,7 +18189,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "0.1u"
+		(property "Value" "0.22u"
 			(at 2.55 -1.1 0)
 			(layer "B.Fab")
 			(uuid "7576898a-2269-4ff8-8c42-6e6585a96af1")
@@ -18398,7 +18406,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "0.1u"
+		(property "Value" "0.22u"
 			(at 0 -1.68 0)
 			(layer "B.Fab")
 			(uuid "cd75beb4-81aa-4947-93e0-3e018e15a4e6")
@@ -18614,7 +18622,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "0.1u"
+		(property "Value" "0.22u"
 			(at -3.675 0.025 0)
 			(layer "B.Fab")
 			(uuid "215fdea7-0d19-47aa-9ea9-a61580564230")

@@ -16,7 +16,7 @@ Bill of materials (all parts are Surface Mount Device / SMD unless indicated oth
 - 1x 27C256 or compatible PROM/EPROM/flash ROM chip for BIOS, DIP-28
 - 1x 74LS244/74HCT244, SSOP-20 
 - 1x LM334M, SOIC-8
-- 1x LDK320AM50R 5V LDO regulator, SOT-23-5
+- 1x LDK320AM50R 5V LDO regulator, SOT-23-5 (https://www.digikey.com/en/products/detail/stmicroelectronics/LDK320AM50R/6192780)
 - 1x 1N4148 or compatible diode, SOD-323
 - 1x DSUB-15-HD right angle through hole VGA connector (something akin to this: https://www.digikey.com/en/products/detail/assmann-wsw-components/A-HDF15A-KG-TAXB/1241905)
 - 20x 0.22uF 0805/2012 metric ceramic caps of X5R/X7R type

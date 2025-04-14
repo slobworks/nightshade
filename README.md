@@ -41,3 +41,4 @@ Bill of materials (all parts are Surface Mount Device / SMD unless indicated oth
 - 3x 0805/2012 metric ferrite beads, rated for 20-50 ohms DCR @ 100MHz
 - 1x 14.31818MHz 2-pin SMD crystal, 5032 
 - (Optional) 1x 2.54mm pitch 2-pin through hole header (to enable IRQ 9 if needed)
+- 1x Keystone 9200-1 I/O bracket (https://www.digikey.com/en/products/detail/keystone-electronics/9200-1/317282)

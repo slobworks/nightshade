@@ -12,17 +12,28 @@ Also includes gerber files so you can try it out for yourself.
 
 Bill of materials (all parts are Surface Mount Device / SMD unless indicated otherwise):
 - 1x Cirrus Logic CL-GD542x graphic chip, PQFP-160
-- 2x 424260-compatible FPM 256Kx16 DRAM chips rated at least 70ns, in SOJ-40 format (this might require you to cannibalize parts from other broken cards, or roll the dice on eBay)
-- 1x 27C256 or compatible PROM/EPROM/flash ROM chip for BIOS, in DIP-28 format
-- 1x 74HC244 in SSOP-20 format
-- 1x LM334M in SOIC-8 format
-- 1x 1N4148 or compatible diode in SOD-323 format
-- 1x DSUB-15-HD connector (something akin to this: https://www.digikey.com/en/products/detail/assmann-wsw-components/A-HDF15A-KG-TAXB/1241905)
-- A big bunch (order at least 25 for the best price break) of 0.22uF 0805/2012 metric ceramic caps of X5R or X7R type
+- 2x 424260-compatible FPM 256Kx16 DRAM chips rated at least 70ns, SOJ-40 (this might require you to cannibalize parts from other broken cards, or roll the dice on eBay)
+- 1x 27C256 or compatible PROM/EPROM/flash ROM chip for BIOS, DIP-28
+- 1x 74HC244, SSOP-20 
+- 1x LM334M, SOIC-8
+- 1x LDK320AM50R 5V LDO regulator, SOT-23-5
+- 1x 1N4148 or compatible diode, SOD-323
+- 1x DSUB-15-HD right angle through hole VGA connector (something akin to this: https://www.digikey.com/en/products/detail/assmann-wsw-components/A-HDF15A-KG-TAXB/1241905)
+- 20x 0.22uF 0805/2012 metric ceramic caps of X5R/X7R type
+- 4x 10uF 16V+ 2012/3216 metric ceramic caps of X5R/X7R type (these work well: https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL31B106KAHNNNE/3887462)
+- 2x 2.2u 0805/2012 metric ceramic caps of X5R/X7R type
+- 1x 0.01uF / 10nF 0805/2012 metric ceramic capacitor of X5R/X7R type
+- (Optional) 2x 100pF 0805/2012 metric ceramic capacitor of C0G type (if needed)
+- 2x 47pF 0805/2012 metric ceramic caps of C0G type
+- 2x 18pF 0805/2012 metric ceramic caps of C0G type
 - 3x 12pF 0805/2012 metric ceramic caps of C0G type
-- 3x 75 ohm 0805/2012 metric resistors
-- 3x 0805/2012 metric ferrite beads, rated for 20-50 ohms DCR @ 100MHz
+- 1x 10K ohm 0805/2012 metric resistor
 - 5x 6.8K ohm 0805/2012 metric resistor
-- 1x 15 ohm 0805/2012 metric resistor
 - 1x 150 ohm 0805/2012 metric resistor
 - 1x 100 ohm 0805/2012 metric resistor
+- 5x 75 ohm 0805/2012 metric resistors
+- 2x 47 ohm 0805/2012 metric resistors
+- 3x 33 ohm 0805/2012 metric resistors
+- 1x 15 ohm 0805/2012 metric resistor
+- 3x 0805/2012 metric ferrite beads, rated for 20-50 ohms DCR @ 100MHz
+- 1x 14.31818MHz 2-pin SMD crystal, 5032 

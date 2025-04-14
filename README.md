@@ -35,5 +35,7 @@ Bill of materials (all parts are Surface Mount Device / SMD unless indicated oth
 - 2x 47 ohm 0805/2012 metric resistors
 - 3x 33 ohm 0805/2012 metric resistors
 - 1x 15 ohm 0805/2012 metric resistor
+- 1x 0 ohm 0805/2012 metric resistor (to enable 0 waitstate mode; depending on BIOS this may not be needed)
 - 3x 0805/2012 metric ferrite beads, rated for 20-50 ohms DCR @ 100MHz
 - 1x 14.31818MHz 2-pin SMD crystal, 5032 
+- (Optional) 1x 2.54mm pitch 2-pin through hole header (to enable IRQ 9 if needed)

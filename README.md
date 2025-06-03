@@ -1,5 +1,5 @@
-![front](https://github.com/user-attachments/assets/f14dd4f5-3ea7-4926-9716-dd218bfecc8a)
-![back](https://github.com/user-attachments/assets/4bd0c1f4-3d32-404b-bb0f-160f76e2a1b3)
+![front](https://github.com/user-attachments/assets/7549e81b-25af-42e6-b017-eb23f1c58a5b)
+![back](https://github.com/user-attachments/assets/0670de9a-8a0f-4417-bb97-4d286bad9976)
 This is the SMD ISA version of the open-source Nightshade CL-GD542x VGA card project. This board has been built by me and its operation verified (it works). 
 It's got the usual Nightshade features:
 - Dedicated regulator for the internal RAMDAC for improved video quality

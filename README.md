@@ -9,7 +9,7 @@ It's got the usual Nightshade features:
 - Emphasis on implementation simplicity (added regulator aside) for reduced part count and effort needed to assemble the board
 - Silkscreen decoration on opposite side of card drawn by me
 
-Made in KiCAD 8.0something.
+Made in KiCAD 9.x.
 Also includes gerber files so you can try it out for yourself.
 
 Bill of materials (all parts are Surface Mount Device / SMD unless indicated otherwise):

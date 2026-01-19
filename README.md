@@ -21,22 +21,24 @@ Bill of materials (all parts are Surface Mount Device / SMD unless indicated oth
 - 1x 27C256 or compatible PROM/EPROM/flash ROM chip for BIOS, DIP-28 (2 needed for 16-bit BIOS mode)
 - 1x 74HCT244, TSSOP-20 (2 needed for 16-bit BIOS mode)
 - 1x LM334M, SOIC-8
-- 1x LF50 or 78M05 5V LDO regulator, DPAK (https://www.digikey.com/en/products/detail/stmicroelectronics/LDK320AM50R/6192780)
+- 1x LF50 or 78M05 5V LDO regulator, DPAK (https://www.digikey.com/en/products/detail/stmicroelectronics/LF50CDT-TR/591636)
 - 1x TL431, SOT-23-5
 - 1x DSUB-15-HD right angle through hole VGA connector (something akin to this: https://www.digikey.com/en/products/detail/assmann-wsw-components/A-HDF15A-KG-TAXB/1241905)
-- 20x 0.22uF 0805/2012 metric ceramic caps of X5R/X7R type
+- 24x 0.22uF 0805/2012 metric ceramic caps of X5R/X7R type (0.1uF will likely work too)
 - 4x 10uF 16V+ 2012/3216 metric ceramic caps of X5R/X7R type (these work well: https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL31B106KAHNNNE/3887462)
-- 2x 2.2u 0805/2012 metric ceramic caps of X5R/X7R type
+- 2x 2.2u 0805/2012 metric ceramic caps of X5R/X7R type (1uF will likely work too)
 - 1x 0.01uF / 10nF 0805/2012 metric ceramic capacitor of X5R/X7R type
-- (Optional) 2x 100pF 0805/2012 metric ceramic capacitor of C0G type (if needed)
+- (Optional) 1x NM93C46 or equivalent SOIC-8 serial EEPROM (you need the one with x16 mode support)
 - 2x 47pF 0805/2012 metric ceramic caps of C0G type
 - 2x 18pF 0805/2012 metric ceramic caps of C0G type
 - 3x 12pF 0805/2012 metric ceramic caps of C0G type
 - 1x 10K ohm 0805/2012 metric resistor
 - 6x 6.8K ohm 0805/2012 metric resistor
+- 1x 1K ohm 0805/2012 metric resistor
+- 1x 300 ohm 0805/2012 metric ressitor
 - 1x 150 ohm 0805/2012 metric resistor
 - 1x 100 ohm 0805/2012 metric resistor
 - 5x 75 ohm 0805/2012 metric resistors
 - 2x 47 ohm 0805/2012 metric resistors
 - 3x 33 ohm 0805/2012 metric resistors
-- 1x 15 ohm 0805/2012 metric resistor
+- 3x 16 ohm 0805/2012 metric resistor

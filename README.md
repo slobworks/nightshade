@@ -10,7 +10,7 @@ It's got the usual Nightshade features:
 - Emphasis on implementation simplicity (added regulator aside) for reduced part count and effort needed to assemble the board
 - Silkscreen decorations drawn by me
 
-The Killer Tomato variant was basically intended as a mild satire of what the 'ideal' Cirrus ISA VGA card should be, but then it kind of spiralled out of control and became an actually viable product of its own. And it's scalable: if you don't want specific functionality (such as the second megabyte, serial EEPROM or Vesa Feature Connector), then simply don't fit them.
+The Killer Tomato variant was basically intended as a mild satire of what the 'ideal' Cirrus ISA VGA card should be, but then it kind of spiralled out of control and became an actually viable product of its own. And it's scalable: if you don't want specific functionality (such as the second megabyte, serial EEPROM or VESA Feature Connector), then simply don't fit them.
 
 Made in KiCAD 9.x.
 Also includes gerber files so you can try it out for yourself.
@@ -26,6 +26,8 @@ Bill of materials (all parts are Surface Mount Device / SMD unless indicated oth
 - 1x TL431DBZ, SOT-23-5
 - 1x MMBT3904 NPN small signal transistor, SOT-23-5  (https://www.digikey.com/en/products/detail/guangdong-inmark-electronics-co-ltd/MMBT3904/28539351)
 - (Optional) 1x NM93C46 or equivalent SOIC-8 serial EEPROM (you need the one with x16 mode support)
+- 3x 2-pin, 2.54mm pitch male jumper connectors
+- (Optional) 1x 2x13 pin, 2.52mm pitch male header for VESA Feature Connector
 - 1x DSUB-15-HD right angle through hole VGA connector (something akin to this: https://www.digikey.com/en/products/detail/assmann-wsw-components/A-HDF15A-KG-TAXB/1241905)
 - 24x 0.22uF 0805/2012 metric ceramic caps of X5R/X7R type (0.1uF will likely work too)
 - 4x 10uF 16V+ 2012/3216 metric ceramic caps of X5R/X7R type (these work well: https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL31B106KAHNNNE/3887462)

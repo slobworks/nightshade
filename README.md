@@ -27,6 +27,7 @@ Bill of materials (all parts are Surface Mount Device / SMD unless indicated oth
 - 2x (1MB) or 4x (2MB) 424260-compatible FPM 256Kx16 DRAM chips rated at least 70ns, SOJ-40 (this might require you to cannibalize parts from other broken cards, or roll the dice on eBay)
 - 1x DIP-28 through-hole socket (2 needed for 16-bit BIOS mode)
 - 1x 27C256 or compatible PROM/EPROM/flash ROM chip for BIOS, DIP-28 (2 needed for 16-bit BIOS mode)
+- 1x 14.31818MHz 5032 SMD crystal (https://www.digikey.com/en/products/detail/qst/QT532G-14-31818MBBK-T/26975047)
 - 1x 74HCT244, SSOP-20 or TSSOP-20 (2 needed for 16-bit BIOS mode)
 - 1x LF50 or 78M05 5V LDO regulator, DPAK (https://www.digikey.com/en/products/detail/stmicroelectronics/LF50CDT-TR/591636)
 - 1x TL431DBZ, SOT-23-5

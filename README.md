@@ -24,6 +24,7 @@ Bill of materials (all parts are Surface Mount Device / SMD unless indicated oth
 - 1x LM334M, SOIC-8
 - 1x LF50 or 78M05 5V LDO regulator, DPAK (https://www.digikey.com/en/products/detail/stmicroelectronics/LF50CDT-TR/591636)
 - 1x TL431DBZ, SOT-23-5
+- 1x MMBT3904 NPN small signal transistor, SOT-23-5  (https://www.digikey.com/en/products/detail/guangdong-inmark-electronics-co-ltd/MMBT3904/28539351)
 - (Optional) 1x NM93C46 or equivalent SOIC-8 serial EEPROM (you need the one with x16 mode support)
 - 1x DSUB-15-HD right angle through hole VGA connector (something akin to this: https://www.digikey.com/en/products/detail/assmann-wsw-components/A-HDF15A-KG-TAXB/1241905)
 - 24x 0.22uF 0805/2012 metric ceramic caps of X5R/X7R type (0.1uF will likely work too)

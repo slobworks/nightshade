@@ -49,7 +49,7 @@ Bill of materials (all parts are Surface Mount Device / SMD unless indicated oth
 - 1x 300 ohm 0805/2012 metric resistor
 - 1x 100 ohm 0805/2012 metric resistor
 - 5x 75 ohm 0805/2012 metric resistors
-- 2x 47 ohm 0805/2012 metric resistors
-- 3x 33 ohm 0805/2012 metric resistors
+- 1x 47 ohm 0805/2012 metric resistor
+- 5x 33 ohm 0805/2012 metric resistors
 - 3x 16 ohm 0805/2012 metric resistors
 - 3x 0.22~22 ohm @ 100MHz, 1210/3216 metric ferrite beads

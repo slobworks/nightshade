@@ -10,7 +10,7 @@ It's got the usual Nightshade features:
 - Emphasis on implementation simplicity (added regulator aside) for reduced part count and effort needed to assemble the board
 - Silkscreen decorations drawn by me
 
-The Killer Tomato variant was basically intended as a mild satire of what the 'ideal' Cirrus ISA VGA card should be, but then it kind of spiralled out of control and became an actually viable product of its own. And it's scalable: if you don't want specific functionality (such as the second megabyte, serial EEPROM or VESA Feature Connector), then simply don't fit them.
+The Killer Tomato variant was basically intended as a mild satire of what the 'ideal' Cirrus ISA VGA card should be, but then it kind of spiralled out of control and became an actually viable product of its own. And it's scalable: if you don't want specific functionality (such as the second megabyte, serial EEPROM, VESA Feature Connector or the high byte BIOS socket plus its accompanying 74HCT244), then simply don't fit them.
 
 BIOS files *not* provided here, due to uncertainty regarding the copyright. It does require an _non-interleaved_ VGA BIOS in order for it to work; most of the Cirrus BIOS files you find online are 'interleaved'. You can nonetheless find a suitable (albeit padded to 64K) file, isamalaysia.bin (1.41), on the CL-GD5428 page of the VGA Legacy MkIII museum. 
 

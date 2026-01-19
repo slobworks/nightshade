@@ -12,6 +12,8 @@ It's got the usual Nightshade features:
 
 The Killer Tomato variant was basically intended as a mild satire of what the 'ideal' Cirrus ISA VGA card should be, but then it kind of spiralled out of control and became an actually viable product of its own. And it's scalable: if you don't want specific functionality (such as the second megabyte, serial EEPROM or VESA Feature Connector), then simply don't fit them.
 
+BIOS files *not* provided here, due to uncertainty regarding the copyright. It does require an _unscrambled_ VGA BIOS in order for it to work; most of the Cirrus BIOS files you find online are 'scrambled'. You can nonetheless find suitable files on the CL-GD5428 page of The Retro Web.
+
 Made in KiCAD 9.x.
 Also includes gerber files so you can try it out for yourself.
 
@@ -25,7 +27,7 @@ Bill of materials (all parts are Surface Mount Device / SMD unless indicated oth
 - 1x LF50 or 78M05 5V LDO regulator, DPAK (https://www.digikey.com/en/products/detail/stmicroelectronics/LF50CDT-TR/591636)
 - 1x TL431DBZ, SOT-23-5
 - 1x MMBT3904 NPN small signal transistor, SOT-23-5  (https://www.digikey.com/en/products/detail/guangdong-inmark-electronics-co-ltd/MMBT3904/28539351)
-- (Optional) 1x NM93C46 or equivalent SOIC-8 serial EEPROM (you need the one with x16 mode support)
+- (Optional) 1x NM93C46 or equivalent SOIC-8 serial EEPROM (you need the one with x16 mode support) - this apparently only works with up to V1.30a of the VGA BIOS, cause is under investigation
 - 3x 2-pin, 2.54mm pitch male jumper connectors
 - (Optional) 1x 2x13 pin, 2.52mm pitch male header for VESA Feature Connector
 - 1x DSUB-15-HD right angle through hole VGA connector (something akin to this: https://www.digikey.com/en/products/detail/assmann-wsw-components/A-HDF15A-KG-TAXB/1241905)

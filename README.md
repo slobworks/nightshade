@@ -12,7 +12,7 @@ It's got the usual Nightshade features:
 
 The Killer Tomato variant was basically intended as a mild satire of what the 'ideal' Cirrus ISA VGA card should be, but then it kind of spiralled out of control and became an actually viable product of its own. And it's scalable: if you don't want specific functionality (such as the second megabyte, serial EEPROM or VESA Feature Connector), then simply don't fit them.
 
-BIOS files *not* provided here, due to uncertainty regarding the copyright. It does require an _unscrambled_ VGA BIOS in order for it to work; most of the Cirrus BIOS files you find online are 'scrambled'. You can nonetheless find suitable files on the CL-GD5428 page of The Retro Web.
+BIOS files *not* provided here, due to uncertainty regarding the copyright. It does require an _non-interleaved_ VGA BIOS in order for it to work; most of the Cirrus BIOS files you find online are 'interleaved'. You can nonetheless find suitable files on the CL-GD5428 page of The Retro Web. 16-bit BIOS mode requires two PROM/EPROM/EEPROM/flash chips with identical BIOS contents.
 
 Made in KiCAD 9.x.
 Also includes gerber files so you can try it out for yourself.

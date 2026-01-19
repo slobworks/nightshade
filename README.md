@@ -12,10 +12,12 @@ It's got the usual Nightshade features:
 
 The Killer Tomato variant was basically intended as a mild satire of what the 'ideal' Cirrus ISA VGA card should be, but then it kind of spiralled out of control and became an actually viable product of its own. And it's scalable: if you don't want specific functionality (such as the second megabyte, serial EEPROM or VESA Feature Connector), then simply don't fit them.
 
-BIOS files *not* provided here, due to uncertainty regarding the copyright.
-It does require an _non-interleaved_ VGA BIOS in order for it to work; most of the Cirrus BIOS files you find online are 'interleaved'. You can nonetheless find a suitable (albeit padded to 64K) file, isamalaysia.bin (1.41), on the CL-GD5428 page of the VGA Legacy MkIII museum. 16-bit BIOS mode requires two PROM/EPROM/EEPROM/flash chips with identical BIOS contents.
+BIOS files *not* provided here, due to uncertainty regarding the copyright. It does require an _non-interleaved_ VGA BIOS in order for it to work; most of the Cirrus BIOS files you find online are 'interleaved'. You can nonetheless find a suitable (albeit padded to 64K) file, isamalaysia.bin (1.41), on the CL-GD5428 page of the VGA Legacy MkIII museum. 
+
 This file has been tested and works; if your EPROM programmer complains about file size when writing 27C256, then split the file into two 32768-byte files, and use the first half to program your BIOS chips. 
 For 27C512s, you must double up the contents of the BIOS (in DOS or Windows command line, a command like 'copy /b vgabios.bin+vgabios.bin outbios.bin' is sufficient).
+
+16-bit BIOS mode requires two PROM/EPROM/EEPROM/flash chips with identical BIOS contents.
 
 Made in KiCAD 9.x.
 Also includes gerber files so you can try it out for yourself.

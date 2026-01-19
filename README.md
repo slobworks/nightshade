@@ -28,7 +28,6 @@ Bill of materials (all parts are Surface Mount Device / SMD unless indicated oth
 - 1x DIP-28 through-hole socket (2 needed for 16-bit BIOS mode)
 - 1x 27C256 or compatible PROM/EPROM/flash ROM chip for BIOS, DIP-28 (2 needed for 16-bit BIOS mode)
 - 1x 74HCT244, SSOP-20 or TSSOP-20 (2 needed for 16-bit BIOS mode)
-- 1x LM334M, SOIC-8
 - 1x LF50 or 78M05 5V LDO regulator, DPAK (https://www.digikey.com/en/products/detail/stmicroelectronics/LF50CDT-TR/591636)
 - 1x TL431DBZ, SOT-23-5
 - 1x MMBT3904 NPN small signal transistor, SOT-23-5  (https://www.digikey.com/en/products/detail/guangdong-inmark-electronics-co-ltd/MMBT3904/28539351)

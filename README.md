@@ -52,4 +52,5 @@ Bill of materials (all parts are Surface Mount Device / SMD unless indicated oth
 - 1x 47 ohm 0805/2012 metric resistor
 - 6x 33 ohm 0805/2012 metric resistors
 - 3x 16 ohm 0805/2012 metric resistors
+- 1x PTC resettable, 9V 200mA, 0805/2012 metric polyfuse (https://www.digikey.com/en/products/detail/littelfuse-inc/0805L020YR/1212820)
 - 3x 0.22~22 ohm @ 100MHz, 1210/3216 metric ferrite beads

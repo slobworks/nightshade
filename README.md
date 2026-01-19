@@ -25,7 +25,7 @@ Also includes gerber files so you can try it out for yourself.
 Bill of materials (all parts are Surface Mount Device / SMD unless indicated otherwise):
 - 1x Cirrus Logic CL-GD542x graphic chip, PQFP-160
 - 2x (1MB) or 4x (2MB) 424260-compatible FPM 256Kx16 DRAM chips rated at least 70ns, SOJ-40 (this might require you to cannibalize parts from other broken cards, or roll the dice on eBay)
-- 1x DIP-28 socket (2 needed for 16-bit BIOS mode)
+- 1x DIP-28 through-hole socket (2 needed for 16-bit BIOS mode)
 - 1x 27C256 or compatible PROM/EPROM/flash ROM chip for BIOS, DIP-28 (2 needed for 16-bit BIOS mode)
 - 1x 74HCT244, SSOP-20 or TSSOP-20 (2 needed for 16-bit BIOS mode)
 - 1x LM334M, SOIC-8

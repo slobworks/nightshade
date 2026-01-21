@@ -10754,6 +10754,12 @@
 		(uuid "816ba828-add6-4bf5-a31a-1a3f60938e5d")
 	)
 	(junction
+		(at 330.2 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "829fcf94-d821-440c-a4e5-133f2f1f6705")
+	)
+	(junction
 		(at 166.37 274.32)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -10770,6 +10776,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "87b6713d-824b-480f-8fca-99f57f3faad8")
+	)
+	(junction
+		(at 322.58 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "89b584e4-6cd8-48c1-9673-4c3a591b3981")
 	)
 	(junction
 		(at 387.35 142.24)
@@ -11763,6 +11775,16 @@
 	)
 	(wire
 		(pts
+			(xy 330.2 81.28) (xy 322.58 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11d65f71-ee47-44e1-8a07-42e4da221443")
+	)
+	(wire
+		(pts
 			(xy 370.84 147.32) (xy 374.65 147.32)
 		)
 		(stroke
@@ -11903,7 +11925,7 @@
 	)
 	(wire
 		(pts
-			(xy 317.5 69.85) (xy 330.2 69.85)
+			(xy 317.5 69.85) (xy 322.58 69.85)
 		)
 		(stroke
 			(width 0)
@@ -12933,6 +12955,16 @@
 	)
 	(wire
 		(pts
+			(xy 322.58 69.85) (xy 322.58 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3627ee8d-b7e4-46fe-9920-cd229b1a5a07")
+	)
+	(wire
+		(pts
 			(xy 234.95 38.1) (xy 243.84 38.1)
 		)
 		(stroke
@@ -13620,6 +13652,16 @@
 			(type default)
 		)
 		(uuid "4b2d6df6-df94-4498-87da-c1470a2666fa")
+	)
+	(wire
+		(pts
+			(xy 322.58 81.28) (xy 322.58 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b4cb5c4-c5e6-493a-b2b5-bb0464703fd3")
 	)
 	(wire
 		(pts
@@ -14720,6 +14762,16 @@
 			(type default)
 		)
 		(uuid "6e7b5635-dacf-4ba2-905b-964d54cc32d4")
+	)
+	(wire
+		(pts
+			(xy 322.58 69.85) (xy 330.2 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6eccca86-0184-4cf6-a2fe-c70caf3a3501")
 	)
 	(wire
 		(pts
@@ -26601,7 +26653,7 @@
 			)
 		)
 		(property "Value" "10u"
-			(at 323.85 77.47 0)
+			(at 325.628 77.724 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27863,7 +27915,7 @@
 			)
 		)
 		(property "Value" "10u"
-			(at 349.25 77.47 0)
+			(at 351.028 77.724 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28372,7 +28424,7 @@
 			)
 		)
 		(property "Value" "10u"
-			(at 331.47 77.47 0)
+			(at 333.248 77.724 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32936,6 +32988,93 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Polarized_Small")
+		(at 322.58 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "154ca235-82fc-4ccf-9ee5-bc414c75a717")
+		(property "Reference" "C18"
+			(at 317.5 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10u"
+			(at 318.008 77.724 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+			(at 322.58 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 322.58 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Polarized capacitor, small symbol"
+			(at 322.58 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 322.58 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 322.58 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9ca2fa0b-2967-46cc-bb01-67ac23e922b3")
+		)
+		(pin "2"
+			(uuid "9a3edec8-61d9-45a9-a899-bbfa8ea5a61f")
+		)
+		(instances
+			(project "nightshade"
+				(path "/943ffdfb-b8f3-4ebd-9829-381f0bff885b"
+					(reference "C18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "74xx:74HCT244")
 		(at 347.98 212.09 0)
 		(unit 1)
@@ -33333,7 +33472,7 @@
 			)
 		)
 		(property "Value" "10u"
-			(at 340.36 77.47 0)
+			(at 342.138 77.724 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35556,7 +35695,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PDVGA:DIP-28_W15.24mm_Plus_Cap_Socket"
+		(property "Footprint" "Package_DIP:DIP-28_W15.24mm_Socket"
 			(at 314.96 157.48 0)
 			(effects
 				(font

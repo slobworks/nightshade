@@ -13,10 +13,11 @@ It's got the usual Nightshade features:
 
 The Killer Tomato variant was basically intended as a mild satire of what the 'ideal' Cirrus ISA VGA card should be, but then it kind of spiralled out of control and became an actually viable product of its own. And it's scalable: if you don't want specific functionality (such as the second megabyte, serial EEPROM, VESA Feature Connector or the high byte BIOS socket plus its accompanying 74HCT244), then simply don't fit them.
 
-BIOS files *not* provided here, due to uncertainty regarding the copyright. It does require an _non-interleaved_ VGA BIOS in order for it to work; most of the Cirrus BIOS files you find online are 'interleaved'. You can nonetheless find a suitable (albeit padded to 64K) file, isamalaysia.bin (1.41), on the CL-GD5428 page of the VGA Legacy MkIII museum. 
+BIOS files *not* provided here, due to uncertainty regarding the copyright. It does require an _non-interleaved_ VGA BIOS in order for it to work; most of the Cirrus BIOS files you find online are 'interleaved'. Depending on the functionality you want:
+- If you want to use a BitBLT chip (GD5426 or better) and want to experiment with 2MB, you can nonetheless find a suitable (albeit padded to 64K) file, isamalaysia.bin (1.41), on the CL-GD5428 page of the VGA Legacy MkIII museum. This file has been tested and works; if your EPROM programmer complains about file size when writing 27C256, then split the file into two 32768-byte files, and use the first half to program your BIOS chips.
+- If you want Serial EEPROM functionality but aren't planning on using 2MB, then you'll need a BIOS from an ISA GD542x card in order for the Serial EEPROM function to work properly. You will also need to pre-initialize the serial EEPROM with a valid image *before* soldering the 93C46A to the card.
 
-This file has been tested and works; if your EPROM programmer complains about file size when writing 27C256, then split the file into two 32768-byte files, and use the first half to program your BIOS chips. 
-For 27C512s, you must double up the contents of the BIOS (in DOS or Windows command line, a command like 'copy /b vgabios.bin+vgabios.bin outbios.bin' is sufficient).
+For 27C512s, you must double up the _non-blank_ contents of the BIOS (in DOS or Windows command line, a command like 'copy /b vgabios.bin+vgabios.bin outbios.bin' is sufficient).
 
 16-bit BIOS mode requires two PROM/EPROM/EEPROM/flash chips with identical BIOS contents.
 

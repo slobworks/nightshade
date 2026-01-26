@@ -1,5 +1,5 @@
-<img width="1403" height="728" alt="bleh" src="https://github.com/user-attachments/assets/46da0edb-17f9-420c-91c5-a8761e0f1437" />
-<img width="1403" height="728" alt="bleh_back" src="https://github.com/user-attachments/assets/5090436b-c3ff-4bd3-9177-b14e77569b15" />
+<img width="1403" height="728" alt="bleh" src="https://github.com/user-attachments/assets/938f981d-8666-4aef-9d00-d6ccf8c80dc1" />
+<img width="1403" height="728" alt="bleh_back" src="https://github.com/user-attachments/assets/b9a698d1-f049-4c1d-a102-7762d2229031" />
 
 This is, for all intents and purposes, a maxed-out version of the open-source, Nightshade CL-GD542x VGA card project. This board has been built by me and its basic operation verified (it works). I have _not_ tested the VESA Feature Connector, however; I am not certain that the pinout is compliant.
 

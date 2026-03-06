@@ -25420,7 +25420,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.22u"
+		(property "Value" "0.1u"
 			(at 210.82 266.7 90)
 			(effects
 				(font
@@ -25702,7 +25702,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.22u"
+		(property "Value" "0.1u"
 			(at 328.422 99.568 0)
 			(effects
 				(font
@@ -25854,7 +25854,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.22u"
+		(property "Value" "0.1u"
 			(at 210.82 256.54 90)
 			(effects
 				(font
@@ -26911,7 +26911,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.22u"
+		(property "Value" "0.1u"
 			(at 386.08 186.69 0)
 			(effects
 				(font
@@ -27535,7 +27535,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.22u"
+		(property "Value" "0.1u"
 			(at 389.89 203.2 0)
 			(effects
 				(font
@@ -28595,7 +28595,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.22u"
+		(property "Value" "0.1u"
 			(at 389.89 129.54 90)
 			(effects
 				(font
@@ -28832,7 +28832,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.22u"
+		(property "Value" "0.1u"
 			(at 393.7 134.62 90)
 			(effects
 				(font
@@ -28919,7 +28919,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.22u"
+		(property "Value" "0.1u"
 			(at 389.89 139.7 90)
 			(effects
 				(font
@@ -29093,7 +29093,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.22u"
+		(property "Value" "0.1u"
 			(at 389.89 149.86 90)
 			(effects
 				(font
@@ -29180,7 +29180,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.22u"
+		(property "Value" "0.1u"
 			(at 393.7 154.94 90)
 			(effects
 				(font
@@ -29880,7 +29880,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.22u"
+		(property "Value" "0.1u"
 			(at 374.65 134.62 90)
 			(effects
 				(font
@@ -31032,7 +31032,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.22u"
+		(property "Value" "0.1u"
 			(at 144.78 77.47 0)
 			(effects
 				(font
@@ -31119,7 +31119,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.22u"
+		(property "Value" "0.1u"
 			(at 143.51 118.11 0)
 			(effects
 				(font
@@ -31535,7 +31535,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.22u"
+		(property "Value" "0.1u"
 			(at 201.93 77.47 0)
 			(effects
 				(font
@@ -31622,7 +31622,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.22u"
+		(property "Value" "0.1u"
 			(at 200.66 118.11 0)
 			(effects
 				(font
@@ -32589,7 +32589,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.22u"
+		(property "Value" "0.1u"
 			(at 374.65 127 90)
 			(effects
 				(font
@@ -33643,7 +33643,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.22u"
+		(property "Value" "0.1u"
 			(at 85.09 119.38 0)
 			(effects
 				(font
@@ -34101,7 +34101,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.22u"
+		(property "Value" "0.1u"
 			(at 374.65 149.86 90)
 			(effects
 				(font
@@ -34562,7 +34562,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.22u"
+		(property "Value" "0.1u"
 			(at 374.65 157.48 90)
 			(effects
 				(font
@@ -34819,7 +34819,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.22u"
+		(property "Value" "0.1u"
 			(at 26.67 78.74 0)
 			(effects
 				(font
@@ -34991,7 +34991,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.22u"
+		(property "Value" "0.1u"
 			(at 86.36 78.74 0)
 			(effects
 				(font
@@ -35078,7 +35078,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.22u"
+		(property "Value" "0.1u"
 			(at 391.16 177.8 0)
 			(effects
 				(font
@@ -35535,7 +35535,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.22u"
+		(property "Value" "0.1u"
 			(at 374.65 142.24 90)
 			(effects
 				(font
@@ -37163,7 +37163,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.22u"
+		(property "Value" "0.1u"
 			(at 25.4 119.38 0)
 			(effects
 				(font

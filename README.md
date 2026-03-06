@@ -40,7 +40,7 @@ Bill of materials (all parts are Surface Mount Device / SMD unless indicated oth
 - 3x 2-pin, 2.54mm pitch male jumper connectors
 - (Optional) 1x 2x13 pin, 2.52mm pitch male header for VESA Feature Connector
 - 1x DSUB-15-HD right angle through hole VGA connector (something akin to this: https://www.digikey.com/en/products/detail/assmann-wsw-components/A-HDF15A-KG-TAXB/1241905)
-- 25x 0.1uF or 0.22uF 0805/2012 metric ceramic caps of X5R/X7R type
+- 25x 0.1uF 0805/2012 metric ceramic caps of X5R/X7R type (https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL21B104KACNNNC/3886757)
 - 7x 10uF 16V+ 2012/3216 metric ceramic caps of X5R/X7R type (these work well: https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL31B106KAHNNNE/3887462)
 - 1x 22~100uF 16V 5mm x 5.3mm (or equivalent) SMD electrolytic capacitor - the higher the uF value, the better the performance, up to a point
 - 4x 2.2u 0805/2012 metric ceramic caps of X5R/X7R type (1uF will likely work too)

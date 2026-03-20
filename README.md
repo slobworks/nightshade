@@ -1,5 +1,6 @@
-<img width="1403" height="728" alt="bleh" src="https://github.com/user-attachments/assets/938f981d-8666-4aef-9d00-d6ccf8c80dc1" />
-<img width="1403" height="728" alt="bleh_back" src="https://github.com/user-attachments/assets/b9a698d1-f049-4c1d-a102-7762d2229031" />
+<img width="1403" height="728" alt="bleh" src="https://github.com/user-attachments/assets/90be2bc3-5135-4d2f-85be-807a4c92da50" />
+<img width="1403" height="728" alt="bleh_back" src="https://github.com/user-attachments/assets/762a8396-d39d-4bff-a81e-ac0a50960b7d" />
+
 
 This is, for all intents and purposes, a maxed-out version of the open-source, Nightshade CL-GD542x VGA card project. Basically, what this board offers the regular version is support for up to 2 megabytes of FPM DRAM installed. This board has been built by me and its basic operation verified (it works). I have _not_ tested the VESA Feature Connector, however; I am not certain that the pinout is compliant.
 

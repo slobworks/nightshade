@@ -1,7 +1,7 @@
 <img width="1403" height="728" alt="bleh" src="https://github.com/user-attachments/assets/938f981d-8666-4aef-9d00-d6ccf8c80dc1" />
 <img width="1403" height="728" alt="bleh_back" src="https://github.com/user-attachments/assets/b9a698d1-f049-4c1d-a102-7762d2229031" />
 
-This is, for all intents and purposes, a maxed-out version of the open-source, Nightshade CL-GD542x VGA card project. This board has been built by me and its basic operation verified (it works). I have _not_ tested the VESA Feature Connector, however; I am not certain that the pinout is compliant.
+This is, for all intents and purposes, a maxed-out version of the open-source, Nightshade CL-GD542x VGA card project. Basically, what this board offers the regular version is support for up to 2 megabytes of FPM DRAM installed. This board has been built by me and its basic operation verified (it works). I have _not_ tested the VESA Feature Connector, however; I am not certain that the pinout is compliant.
 
 It's got the usual Nightshade features:
 
@@ -12,7 +12,7 @@ It's got the usual Nightshade features:
 - Emphasis on implementation simplicity (added regulator aside) for reduced part count and effort needed to assemble the board
 - Silkscreen decorations drawn by me
 
-The Killer Tomato variant was basically intended as a mild satire of what the 'ideal' Cirrus ISA VGA card should be, but then it kind of spiralled out of control and became an actually viable product of its own. And it's scalable: if you don't want specific functionality (such as the second megabyte, serial EEPROM, VESA Feature Connector or the high byte BIOS socket plus its accompanying 74HCT244), then simply don't fit them.
+The Pro variant was basically intended as a mild satire of what the 'ideal' Cirrus ISA VGA card should be, but then it kind of spiralled out of control and became an actually viable product of its own. And it's scalable: if you don't want specific functionality (such as the second megabyte, serial EEPROM, VESA Feature Connector or the high byte BIOS socket plus its accompanying 74HCT244), then simply don't fit them.
 
 BIOS files (apart from SEEPROM image) *not* provided here, due to uncertainty regarding the copyright. It does require a _non-interleaved_ VGA BIOS in order for it to work; most of the Cirrus BIOS files you find online are 'interleaved'. Depending on the functionality you want:
 - If you want to use a BitBLT chip (GD5426 or better) and want to experiment with 2MB, you can nonetheless find a suitable (albeit padded to 64K) file, isamalaysia.bin (1.41), on the CL-GD5428 page of the VGA Legacy MkIII museum. This file has been tested and works; if your EPROM programmer complains about file size when writing 27C256, then split the file into two 32768-byte files, and use the first half to program your BIOS chips. (If you're using a 27C512, _don't_ burn this file directly to it even though it's padded; you must first split the file, and then double up the first, non-empty half. See the following paragraph.)

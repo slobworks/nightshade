@@ -36,7 +36,7 @@ Bill of materials (all parts are Surface Mount Device / SMD unless indicated oth
 - 1x 74HCT244, SSOP-20 or TSSOP-20 (2 needed for 16-bit BIOS mode)
 - 1x LF50 or 78M05 5V LDO regulator, DPAK (https://www.digikey.com/en/products/detail/stmicroelectronics/LF50CDT-TR/591636)
 - 1x TL431DBZ, SOT-23-3 (https://www.digikey.com/en/products/detail/texas-instruments/TL431BQDBZR/714694)
-- 1x MMBT3904 NPN small signal transistor, SOT-23-3  (https://www.digikey.com/en/products/detail/guangdong-inmark-electronics-co-ltd/MMBT3904/28539351)
+- 1x MMBT3904 NPN small signal transistor, SOT-23-3  (https://www.digikey.com/en/products/detail/taiwan-semiconductor-corporation/MMBT3904H-RFG/26741367)
 - (Optional) 1x NM93C46 or equivalent SOIC-8 serial EEPROM (you need the one with x16 mode support) - you WILL need to initialize the serial EEPROM with a valid image *before* assembling it onto the card. Please check the directory /seeprom to get a generic image with all sub-1280x1024 SVGA refresh rates set to 60 Hz. You will also need a BIOS image from an *ISA* GD542x card for the SEEPROM functionality to work; most generic 542x BIOSes were compiled for the VLB variants, which this functionality is disabled.
 - 3x 2-pin, 2.54mm pitch male jumper connectors
 - (Optional) 1x 2x13 pin, 2.52mm pitch male header for VESA Feature Connector

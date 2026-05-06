@@ -3,9 +3,9 @@
     "GenerationSoftware": {
       "Vendor": "KiCad",
       "Application": "Pcbnew",
-      "Version": "9.0.2"
+      "Version": "9.0.7+1"
     },
-    "CreationDate": "2025-06-03T05:25:35-07:00"
+    "CreationDate": "2026-05-06T09:31:55-07:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
@@ -14,31 +14,33 @@
       "Revision": "rev?"
     },
     "Size": {
-      "X": 153.4,
-      "Y": 70.815
+      "X": 153.45,
+      "Y": 76.3
     },
     "LayerNumber": 4,
     "BoardThickness": 1.6,
-    "Finish": "None"
+    "Finish": "ENIG",
+    "EdgeConnector": true,
+    "EdgeConnectorBevelled": true
   },
   "DesignRules": [
     {
       "Layers": "Outer",
-      "PadToPad": 0.15,
-      "PadToTrack": 0.15,
+      "PadToPad": 0.21,
+      "PadToTrack": 0.21,
       "TrackToTrack": 0.25,
       "MinLineWidth": 0.25,
-      "TrackToRegion": 0.508,
-      "RegionToRegion": 0.508
+      "TrackToRegion": 0.25,
+      "RegionToRegion": 0.25
     },
     {
       "Layers": "Inner",
-      "PadToPad": 0.15,
-      "PadToTrack": 0.15,
+      "PadToPad": 0.21,
+      "PadToTrack": 0.21,
       "TrackToTrack": 0.25,
-      "MinLineWidth": 0.25,
-      "TrackToRegion": 0.508,
-      "RegionToRegion": 0.508
+      "MinLineWidth": 0.39,
+      "TrackToRegion": 0.25,
+      "RegionToRegion": 0.25
     }
   ],
   "FilesAttributes": [
@@ -48,13 +50,13 @@
       "FilePolarity": "Positive"
     },
     {
-      "Path": "nightshade-In1_Cu.gbr",
-      "FileFunction": "Copper,L5,Inr",
+      "Path": "nightshade-GND_Cu.gbr",
+      "FileFunction": "Copper,L2,Inr",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "nightshade-GND_Cu.gbr",
-      "FileFunction": "Copper,L7,Inr",
+      "Path": "nightshade-+5V_Cu.gbr",
+      "FileFunction": "Copper,L3,Inr",
       "FilePolarity": "Positive"
     },
     {
@@ -121,20 +123,8 @@
       "Type": "Dielectric",
       "Thickness": 0.48,
       "Material": "FR4",
-      "Name": "F.Cu/In1.Cu",
-      "Notes": "Type: dielectric layer 1 (from F.Cu to In1.Cu)"
-    },
-    {
-      "Type": "Copper",
-      "Thickness": 0.035,
-      "Name": "In1.Cu"
-    },
-    {
-      "Type": "Dielectric",
-      "Thickness": 0.48,
-      "Material": "FR4",
-      "Name": "In1.Cu/GND.Cu",
-      "Notes": "Type: dielectric layer 2 (from In1.Cu to GND.Cu)"
+      "Name": "F.Cu/GND.Cu",
+      "Notes": "Type: dielectric layer 1 (from F.Cu to GND.Cu)"
     },
     {
       "Type": "Copper",
@@ -145,8 +135,20 @@
       "Type": "Dielectric",
       "Thickness": 0.48,
       "Material": "FR4",
-      "Name": "GND.Cu/B.Cu",
-      "Notes": "Type: dielectric layer 3 (from GND.Cu to B.Cu)"
+      "Name": "GND.Cu/+5V.Cu",
+      "Notes": "Type: dielectric layer 2 (from GND.Cu to +5V.Cu)"
+    },
+    {
+      "Type": "Copper",
+      "Thickness": 0.035,
+      "Name": "+5V.Cu"
+    },
+    {
+      "Type": "Dielectric",
+      "Thickness": 0.48,
+      "Material": "FR4",
+      "Name": "+5V.Cu/B.Cu",
+      "Notes": "Type: dielectric layer 3 (from +5V.Cu to B.Cu)"
     },
     {
       "Type": "Copper",

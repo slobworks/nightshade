@@ -1,6 +1,6 @@
 <img width="1403" height="728" alt="bleh" src="https://github.com/user-attachments/assets/2d38e60e-668a-4ffd-a3fb-56545c47bddd" />
 <img width="1403" height="728" alt="bleh_back" src="https://github.com/user-attachments/assets/8c4ee3c1-624e-43ec-99eb-0506bbc9097b" />
-<b>Update!</b> I think I've neglected the mainline version long enough. Here's my attempt at bringing the mainline, non-satirical version up to parity with the satire. Incorporates a *lot* of changes as well as almost all the functionality of the "pro" version, except several things are marked as optional. Also incorporates too many bugfixes for me to count or keep track of.
+<b>Update!</b> I think I've neglected the mainline version long enough. Here's my attempt at bringing the mainline, non-satirical version up to parity with the satire. Incorporates a *lot* of changes as well as almost all the functionality of the "pro" version, except several things are marked as optional (the GD542x chip is marked do not populate, but that is because it is expected that you will be fitting your own chip anyway). Also incorporates too many bugfixes for me to count or keep track of.
 
 This is the SMD ISA version of the open-source Nightshade CL-GD542x VGA card project. This board has been built by me and its operation verified (it works). 
 It's got the usual Nightshade features:

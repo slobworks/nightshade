@@ -9,7 +9,6 @@ It's got the usual Nightshade features:
 - Supports N-well CL-GD542x chips, starting from late revision CL-GD5422 all the way up to CL-GD5429 (though you may have to change strapping resistors as needed)
 - Custom footprints with longer pads for the more difficult components, to ease hand assembly using a soldering iron
 - Emphasis on implementation simplicity (added regulator aside) for reduced part count and effort needed to assemble the board
-- Silkscreen decoration on opposite side of card drawn by me
 
 Made in KiCAD 9.x.
 Also includes gerber files so you can try it out for yourself.

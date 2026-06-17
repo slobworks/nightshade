@@ -36,7 +36,7 @@ Bill of materials (all parts are Surface Mount Device / SMD unless indicated oth
 - 2x 18pF 0805/2012 metric ceramic caps of C0G type
 - 1x 10K ohm 0805/2012 metric resistor
 - 6x 6.8K ohm 0805/2012 metric resistors
-- 3x 1K ohm 0805/2012 metric resistor
+- 5x 1K ohm 0805/2012 metric resistor
 - 1x 300 ohm 0805/2012 metric resistor
 - 1x 100 ohm 0805/2012 metric resistor
 - 5x 75 ohm 0805/2012 metric resistors
